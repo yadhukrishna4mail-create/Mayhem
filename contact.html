@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Mayhem Collectives</title>
+  <meta name="description" content="Contact Mayhem Collectives to start a creative, marketing, website or studio project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="topbar"><a class="brand" href="index.html"><span class="brand-mark">M</span>mayhem collectives</a><nav class="desktop-nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="nav-link" href="services.html">Services</a><a class="nav-link" href="studio.html">Studio</a><a class="nav-link" href="process.html">Process</a><a class="nav-link active" href="contact.html">Contact</a></nav><div class="nav-actions"><button class="theme-toggle" type="button" data-theme-toggle>Light</button><a class="btn primary start-link" href="#project-form">Start Project</a><button class="menu-toggle" type="button" data-menu-toggle>Menu</button></div></div><nav class="mobile-nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="nav-link" href="services.html">Services</a><a class="nav-link" href="studio.html">Studio</a><a class="nav-link" href="process.html">Process</a><a class="nav-link active" href="contact.html">Contact</a></nav></header>
+  <main>
+    <section class="hero"><div class="wrap"><span class="eyebrow">Contact now</span><h1>Bring the brief. <span class="accent">Mayhem builds the system</span>.</h1><p class="lead">Share what you want to create, launch or scale. The form below routes your enquiry to the right service track.</p></div></section>
+    <section class="section soft"><div class="wrap contact-grid">
+      <div class="contact-stack">
+        <article class="contact-card"><div class="icon">E</div><h3>Email</h3><p><a href="mailto:mayhemcollective2025@gmail.com">mayhemcollective2025@gmail.com</a></p></article>
+        <article class="contact-card"><div class="icon">P</div><h3>Phone</h3><p><a href="tel:+919605562342">+91 96055 62342</a></p></article>
+        <article class="contact-card"><div class="icon">W</div><h3>Website</h3><p>mayhemcollectives.com</p></article>
+        <article class="contact-card"><div class="icon">M</div><h3>Best for</h3><p>Creative production, brand identity, websites, SEO, performance ads, podcasts and studio setup.</p></article>
+      </div>
+      <form class="form" id="project-form">
+        <h2>Start a project</h2>
+        <div class="form-row">
+          <label>Your name<input name="name" type="text" placeholder="Your name" required></label>
+          <label>Email<input name="email" type="email" placeholder="you@brand.com" required></label>
+        </div>
+        <div class="form-row">
+          <label>Phone<input name="phone" type="tel" placeholder="+91 00000 00000"></label>
+          <label>Service<select id="service" name="service"><option>TV Commercials</option><option>Micro-Film Production</option><option>Content Creation</option><option>Product Photography</option><option>Personal Branding</option><option>Website Design</option><option>Brand Identity</option><option>Search Engine Optimization</option><option>Performance Marketing</option><option>Podcast Production</option><option>Studio Setup</option></select></label>
+        </div>
+        <label>Project brief<textarea name="message" placeholder="Tell us about the brand, goal, timeline and what you want to launch."></textarea></label>
+        <button class="btn primary" type="submit">Send Enquiry</button>
+      </form>
+    </div></section>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <footer class="site-footer"><div class="wrap footer-bottom"><span>Contact Mayhem Collectives.</span><a class="footer-link" href="index.html">Back home</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
